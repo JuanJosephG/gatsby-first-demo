@@ -14,12 +14,14 @@ module.exports = {
     'gatsby-plugin-sass',
 
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        name: 'files',
+        path: `${__dirname}/src/markdone`,
       },
     },
-    
+
+    'gatsby-transformer-remark'
+
   ]
 }
