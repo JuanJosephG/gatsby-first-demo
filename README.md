@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the hello-world starter
-    gatsby new my-first-demo https://github.com/gatsbyjs/gatsby-first-demo.git
+    gatsby new my-first-demo https://github.com/JuanJosephG/gatsby-first-demo
     ```
 
 1.  **Start developing.**
