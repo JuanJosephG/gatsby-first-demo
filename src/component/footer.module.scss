@@ -1,0 +1,20 @@
+@import '../styles/global';
+
+.container {
+    background-color: $color-pallete-3;
+    height: $footer-height;
+    width: $site-width;
+    position: absolute;
+    bottom: 0;
+    
+
+    .footer {
+        margin: 0px auto;
+        height: $footer-height;
+        max-width: $site-width;
+        line-height: $footer-height;
+        color: $color-pallete-4;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0px 20px 0px 20px;
+    }
+}

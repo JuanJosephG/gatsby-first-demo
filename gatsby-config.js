@@ -5,6 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: []
+/* Your site config here */
+  siteMetadata: {
+    title: 'Welcome',
+    blog_button_title: 'Modern Gatsby Blog'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    
+  ]
 }
